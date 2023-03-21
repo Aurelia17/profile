@@ -1,0 +1,111 @@
+body {
+  color: #18ACBA;
+  font-family: 'Comic Neue', cursive;
+  background-color: #fff4ed;
+  background-image: url("images/Background_dots.png");
+  font-size: 18px;
+  /* font-weight: lighter; */
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #FFA998;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #18ACBA;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 20px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+.list-inline i {
+  font-size: 50px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-pink {
+  background-color: #FFA998;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
